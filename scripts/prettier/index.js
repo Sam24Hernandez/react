@@ -70,6 +70,7 @@ files.forEach(file => {
   }
 });
 
+// Consolidation
 if (didWarn || didError) {
   process.exit(1);
 }
